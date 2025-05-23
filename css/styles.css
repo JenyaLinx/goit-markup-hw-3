@@ -25,7 +25,6 @@ img {display: block}
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        margin-right: 76px;
         display: inline-block;
         margin-bottom: 16px;
 }
@@ -35,7 +34,7 @@ img {display: block}
     
 }
 .logo-two {
-    color: #f4f4fd;
+    color: #f4f4fd; 
 }
 a {
     text-decoration: none;
@@ -43,6 +42,9 @@ a {
 p,h1,h2,h3,h4,h5,h6 {
     margin-top: 0;
     margin-bottom: 0;
+}
+address {
+    margin-left: auto;
 }
 .hero {
     
@@ -73,10 +75,14 @@ p,h1,h2,h3,h4,h5,h6 {
     display: flex;
 }
 .hero-text {
-    font-weight:500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    padding: 24px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        padding: 24px 0 24px 0;
+        display: block;
 }
 .header-info {
     display: flex;
@@ -297,13 +303,8 @@ padding-top: 120px;
     border-top: none;
 }
 .section-footer {
-    margin-top: 60px;
-        margin-bottom: 0;
-        background: #2E2F42;
-        width: 1440px;
-            height: 312px;
-            padding-top: 100px;
-            padding-bottom: 100px;
+    background-color: #2e2f42;
+        padding: 100px 0;
 }
 .text-footer {
     line-height: 1.5;
